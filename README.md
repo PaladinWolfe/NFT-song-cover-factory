@@ -5,12 +5,12 @@ To utilize this project you need a testnet Rinkeby wallet with some ETH.
 
 **Contracts description:**
 
-*NFTSongCoverFactory.sol*
+*NFTSongCoverFactory.sol*/
 This contract inharits standart NFT contract ERC721. It can create cottectibles for music release of 3 songs:     Color_and_Scilense, Meltdown and Farnah. Token instance is created by createCollectible function with random number and token URI arguments. Function setTokenURI allows to set token URI with metadata.
 
 **Scripts description**
 
-Run scripts in following sequence:
+Run scripts in following sequence:/
 *deploy_NFT_song_contract.py*
 - deploy NFT contract with verified code
 
@@ -46,5 +46,3 @@ export PRIVATE_KEY = ''\
 export ETHERSCAN_TOKEN = ''\
 export PINATA_API_KEY = ''\
 export PINATA_API_SECRET = ''
-
-!!NEED FUND LINK!!
