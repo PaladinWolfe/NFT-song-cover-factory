@@ -1,0 +1,24 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.4.0
+#  - smartcontractkit/chainlink-brownie-contracts@0.4.0
+compiler:
+  solc:
+    version: 0.8.4
+    remappings: 
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.0'
+#      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@0.4.0'
+
+wallets: 
+  #from_key: ${PRIVATE_KEY} 
+  from_key: '0xa483715baa1841ec2d6d0a6beb4f0086fccdb7d6d52c8beead6aeeaab9ed8d0a'
+
+networks:
+  default: rinkeby
+  rinkeby:
+    #host: "http://rinkeby.infura.io/v3/$WEB3_INFURA_PROJECT_ID"
+    weth_token: '0xd0A1E359811322d97991E03f863a0C30C2cF029C'
+
+dotenv: .env
+
+#settings:
+#  gas_limit: "1000000000"

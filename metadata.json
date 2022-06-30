@@ -1,0 +1,11 @@
+{
+    "name": "KHZH",
+    "description": "image",
+    "image": "ipfs://QmSWAwYcPrfG169KEfsekkL1jj88wxDguUQxACvn3uP1Wy",
+    "attributes": [
+        {
+            "trait_type": "weight",
+            "value": 70
+        }
+    ]
+}
