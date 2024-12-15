@@ -1,5 +1,5 @@
 **General description**
-
+Good idea:
 This project uses Brownie framework to deploy NFT smart contract, generate random cover of song tokens from predefined enumeration (Meltdown, Farnag and Color_and_Scilense) and sets metadata to tokens.
 To utilize this project you need a testnet Rinkeby wallet with some ETH.
 
